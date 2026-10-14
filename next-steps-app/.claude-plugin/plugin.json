@@ -1,0 +1,30 @@
+{
+  "name": "next-steps-app",
+  "version": "0.1.0",
+  "description": "next-steps 跨介面版：每輪回答後建議最多三個下一步提示。終端機與桌面版顯示在輸入框上方，手機版與 VS Code 顯示在側邊面板；點選後填入輸入框成為草稿，不會自動送出。",
+  "author": { "name": "Based on next-steps by Thariq Shihipar (MIT)" },
+  "license": "MIT",
+  "userConfig": {
+    "minAnswerChars": {
+      "type": "number",
+      "title": "Shortest answer to suggest after",
+      "description": "Skip suggestions after answers shorter than this many characters.",
+      "required": false,
+      "default": 80
+    },
+    "suggestSkills": {
+      "type": "boolean",
+      "title": "Suggest skills and slash commands",
+      "description": "Tell the suggester which skills and slash commands this session has.",
+      "required": false,
+      "default": true
+    },
+    "alwaysPane": {
+      "type": "boolean",
+      "title": "Always use the side pane",
+      "description": "Show suggestions in a pane on every surface, not only where the above-prompt band is unavailable.",
+      "required": false,
+      "default": false
+    }
+  }
+}

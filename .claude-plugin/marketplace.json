@@ -1,0 +1,16 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "dhbox0117"
+  },
+  "metadata": {
+    "description": "老闆自製的 Claude Code mod 集合"
+  },
+  "plugins": [
+    {
+      "name": "next-steps-app",
+      "source": "./next-steps-app",
+      "description": "next-steps 跨介面版：終端機/桌面顯示在輸入框上方，手機/VS Code 顯示在面板；只填草稿，不自動送出。"
+    }
+  ]
+}
